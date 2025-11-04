@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+gcc ~/Drawpot/main.c -o main -lncurses && ~/Drawpot/main
