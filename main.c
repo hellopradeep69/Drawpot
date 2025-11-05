@@ -29,23 +29,18 @@ int main() {
     int dx = 0, dy = 0;
 
     switch (ch) {
-    // Basic movement
-    case KEY_LEFT:
     case 'h':
       dx = -1;
       steps = 2;
       break;
-    case KEY_RIGHT:
     case 'l':
       dx = 1;
       steps = 2;
       break;
-    case KEY_UP:
     case 'k':
       dy = -1;
       steps = 2;
       break;
-    case KEY_DOWN:
     case 'j':
       dy = 1;
       steps = 2;
