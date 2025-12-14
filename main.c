@@ -77,6 +77,14 @@ int main() {
     case ctrl('l'):
       mvaddstr(my, mx + 1, " ");
       break;
+      // clear
+    case 'x':
+      clear();
+      refresh();
+      border(0, 0, 0, 0, 0, 0, 0, 0);
+      mvprintw(0, 2, "Drawpot");
+      wmove(stdscr, (sy / 2), (sx / 2));
+      break;
       // quit
     case 'q':
       endwin();
